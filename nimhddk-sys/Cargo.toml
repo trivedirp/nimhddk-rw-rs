@@ -1,0 +1,10 @@
+[package]
+name = "nimhddk-sys"
+version = "0.1.0"
+edition = "2018"
+links = "mhddk"
+
+[dependencies]
+
+[build-dependencies]
+bindgen = "0.66.1"

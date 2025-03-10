@@ -1,0 +1,10 @@
+[package]
+name = "nimhddk"
+version = "0.1.0"
+edition = "2018"
+
+[dependencies]
+nimhddk-sys = { path = "../nimhddk-sys" }
+env_logger = "0.9.0"
+log = { version = "0.4.14", features = ["release_max_level_info"] }
+regex = "1.7.0"
